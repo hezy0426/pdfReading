@@ -1,0 +1,1 @@
+pyinstaller -c -D --add-data "poppler-22.01.0;.\poppler-22.01.0" --add-data "Tesseract-OCR;.\Tesseract-OCR"  uiFile.py
